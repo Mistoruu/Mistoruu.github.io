@@ -1,0 +1,146 @@
+:root{
+    --bg-primary-color:#3b465b;
+    --bg-secondary-color:white;
+
+}
+*, *::before, *::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+}
+html {
+
+}
+body{
+    background-color: rgb(72, 72, 72);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.topnav{
+    background-color:var(--bg-primary-color);
+    font-size: 2rem;
+    overflow: hidden;
+    height: 3rem;
+    
+}
+.topnav a{
+    color:black;
+    background-color:var(--bg-primary-color);
+    text-decoration: none;
+    padding:10px;
+    
+    border-radius: 4%;
+}
+.topnav a:hover {
+    background-color:#2e3645;
+    border-radius: 4%;
+    
+}
+main.jeux div h2{
+    display: flex;
+    justify-content: center;
+
+    color: white;
+    font-size: 3rem;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+main.jeux iframe {
+    margin-left: 3%;
+
+}
+
+main.jeux p {
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 3%;
+}
+
+h1{
+
+    text-align: center;
+    margin-top: 80px;
+}
+
+main.home p{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    font-size: 1.5rem;
+}
+
+footer{
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(72, 72, 72);
+}
+footer a{
+    color:black;
+    text-decoration: none;
+}
+footer ul{
+    list-style: none;
+}
+footer li{
+    font-size: 1.2rem;
+}
+.footer_title{
+    color: rgb(0, 0, 0);
+}
+
+#demonsouls{
+    background-image: url("/Assets/demonsouls_wpp.jpg");
+    
+}
+#DS1{
+    background-image: url("/Assets/ds1_wpp.jpg");
+}
+#DS2{
+    background-image: url("/Assets/ds2_wpp.jpg");
+
+}
+#DS3{
+    background-image: url("/Assets/ds3_wpp.jpg");
+}
+#bloodborne{
+    background-image: url("/Assets/bloodborne_wpp.jpg");
+}
+#sekiro{
+    background-image: url("/Assets/sekiro_wpp.jpg");
+}
+#eldenring{
+    background-image: url("/Assets/eldenring_wpp.jpg");
+}
+
+p{
+   color: white; 
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+
+.plus p{
+
+    font-size: 1.3rem;
+    margin-left: 3%;
+    margin-bottom: 10%;
+}
+
+.plus h2{
+    color: black;
+    font-size: 2rem;
+    margin-left: 3%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.game{
+    border-radius: 2%;
+    margin-top: 0.1rem;
+}
